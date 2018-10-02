@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "lifestyle-concept-portret-van-vrolijk-gelukkig-gember-rood-haar-meisje-geniet-van-het-luisteren-naar-muziek-met-koptelefoon-blije-lachend-naar-camera-geisoleerd-op-blauwe-pastelachtergrond-kopieer-de-ruimte_1258-816.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
