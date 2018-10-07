@@ -62,6 +62,7 @@ extension MainVC: UIViewControllerPreviewingDelegate {
         destVC.preferredContentSize = CGSize.init(width: ScreenSize.WIDTH.value, height: ScreenSize.WIDTH.value)
         peekedData = images[selectedIndexPath?.row ?? 0]
         (destVC as? PreviewVC)?.imgData = peekedData
+        (destVC as? PreviewVC)?.initiatingVCRefrence = self
         navigationController?.pushViewController(destVC, animated: true)
         return destVC
     }
